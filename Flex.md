@@ -1,4 +1,4 @@
-From 阮一峰老师教程<a href="http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html">Flex布局<a/>
+From 阮一峰老师教程<a href="http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html">Flex布局语法<a/><a href="http://www.ruanyifeng.com/blog/2015/07/flex-examples.html">Flex布局实例</a>
 ### 什么是Flex布局
 `Flex布局`意为**弹性布局**，用来为盒状模型提供最大的灵活性。
 任何一个容器都可以指定为`Flex布局`。
