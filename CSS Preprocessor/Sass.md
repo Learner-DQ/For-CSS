@@ -25,4 +25,13 @@ body
   font: 100% $font-stack
   color: $primary-color
 ```
-
+### 2、命令编译
+单文件编译：
+```javascript
+sass <要编译的Sass文件路径>/style.scss:<要输出CSS文件路径>/style.css
+```
+多文件编译
+```javascript
+sass sass/:css/
+//上面的命令表示将项目中“sass”文件夹中所有“.scss”(“.sass”)文件编译成“.css”文件，并且将这些 CSS 文件都放在项目中“css”文件夹中
+```
