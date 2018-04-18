@@ -73,6 +73,29 @@ body{
     line-height:2;
 }
 ```
-
+##### 3.3变量的调用
+比如在定义了变量
+```javascript
+$brand-primary : darken(#428bca, 6.5%) !default; // #337ab7
+$btn-primary-color: #fff !default;
+$btn-primary-bg : $brand-primary !default;
+$btn-primary-border : darken($btn-primary-bg, 5%) !default;
+```
+在按钮 button 中调用，可以按下面的方式调用
+```javascript
+.btn-primary {
+   background-color: $btn-primary-bg;
+   color: $btn-primary-color;
+   border: 1px solid $btn-primary-border;
+}
+```
+编译为
+```javascript
+.btn-primary {
+  background-color: #337ab7;
+  color: #fff;
+  border: 1px solid #2e6da4;
+}
+```
 
 
